@@ -1,0 +1,261 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+
+#page{
+    max-width:1530px;
+    margin-left:3px ;
+    margin-right:1px;
+}
+#page header{
+    width: 1350px;
+    margin: ;
+    background-color: white ;
+}
+
+#header nav{
+    line-height: 400px;
+    background-color: white;
+    text-align: center;
+    font-variant: small-caps;
+    background-color: hotpink;
+}
+
+#page article{
+    min-height: 400px;
+    width: 80%;
+    background-color: white;
+    float: left;
+}
+iframe[name=page]{
+    width: 100%;
+    min-height: 400px;
+}
+#page aside{
+    min-height:500px;
+    width:20%;
+    background-color:white;
+    float:right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   
+}
+#page footer{
+    border-top:5px double deeppink;
+     line-height:50px;
+    background-color: antiquewhite;
+    text-align:center;
+   font-variant:small-caps;
+    clear:both;
+}
+
+.menu>ul>li{
+    display:inline-block;
+    position: center;
+ 
+}
+.menu > ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: purple;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    width:100%;
+} 
+.menu>ul>li>a{
+    display:block;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    color:white;
+    padding:0 10px;
+    line-height:40px;
+}
+.menu>ul>li>a:hover{
+    color:yellow;
+}
+.menu>ul>li:hover>ul{
+    display:block;
+}
+.menu ul ul {
+    position:absolute;
+    display:none;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border-radius: 3px;;
+    width:200px;
+    background-color:white;
+    box-shadow:0 0 1px gray ;
+}
+.menu ul ul a{
+    display:block;
+    line-height:30px;
+    color:orangered;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    padding:0 10px;
+}
+.menu ul ul a:hover{
+    background-color:orangered;
+    color:white;
+}
+
+.vmenu{
+    padding:0px;
+    margin:5px;
+    list-style-image: url('ten.png') ;
+    border-radius:3px;
+    box-shadow:0 0 2px white ;
+    }
+.vmenu a{
+    background: url('') no-repeat 10px center ;
+    display: block ;
+    border-bottom: 1px dotted orangered ;
+    color: orangered ;
+    font-variant: small-caps ;
+    font-size: larger ;
+    text-decoration: none ;
+    padding: 8px 5px 8px 30px;
+    }
+.vmenu a:hover{
+    background: url('ten') no-repeat 10px center ;
+    border-bottom: 1px dotted white ;
+    background-color: orangered ;
+    color: white ;
+    font-weight: bold;
+    }
+    
+header img{
+        width: 100%;
+        
+    }
+header .container{
+    Position:relative;
+    background-image: url(11.jpg);
+    background-size: 50% 100%;
+    height: 300px;
+}
+header .container h1{
+    color: white ;
+    font-family: fantasy;
+    font-weight: bolder ;
+    font-size: 50.0px;
+    text-shadow: 0 0 22px deeppink  ;
+    position: absolute;
+    left: 400px;
+    bottom: 30px;
+    text-decoration: black 20px;
+    text-decoration-line: black 5px;
+}
+header ul.menumenu li{
+    position: relative;
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    font-variant:small-caps;
+    height: 45px;
+    font-weight: bolder;
+}
+header ul.menumenu li a{
+    position: relative;
+    display: inline-block;
+    float: left;
+    line-height: 45px;
+    padding: 0 8px;
+    color:white;
+    text-decoration: none;
+
+}
+header ul.menumenu li a:hover{
+    color:yellow ;
+}
+.clearfix{
+    visibility: visible;
+    clear: both;
+}
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+.top-right{
+    Position:absolute;
+    Top:0px;
+    Right:0px;
+    Border-bottom: 25px;
+    box-shadow: 0 0 10px;
+    padding-left: 10px;
+    background-color: palevioletred ;
+    height: 40px;
+    text-align: justify;
+}
+.company-info{
+    Bottom:30px;
+    Left:15px;
+    position: absolute;
+}
+.company-info h1{
+    font-size: 20px;
+    color: ;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    text-shadow: 0 0 10px black;
+    border-bottom: 2px black  solid;
+}
+.company-info p{
+    text-align: justify;
+    font-size: 20px;
+    color:rgb(21, 22, 17);
+    font-weight: bolder;
+    padding-top: 5px;
+    margin-left: 400px;
+    text-shadow: 5px rgb(228, 18, 140);
+    border: 3px white ;
+    font-family:'Bell MT';
+    text-decoration:  underline;
+    }
+aside {
+    text-align: center;
+    color: black;
+ }
+h3{text-decoration:underline;}
+
+.baby{ margin:4px;}
+h3 {
+
+   position:center;
+    display: block;
+    background-color:lightpink;
+    width: 200px;
+    text-align: center;
+   margin-left:30px;
+}
+h5{color:purple;}
+.box{
+    margin: 5px;
+    width: 300px;
+    height: 50px;
+  }
+  .container-1 input#search{
+    width: 250px;
+    height: 30px;
+    background:palevioletred;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #f7f7fc;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-top:2px;
+  }

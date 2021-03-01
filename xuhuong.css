@@ -1,0 +1,85 @@
+.col-25{
+    width:25%;
+    float:left;
+}
+.prod{
+   
+   
+    margin:5px;
+    padding:5px;
+    text-align:center;
+    position:relative;
+}
+.prod>.name{
+    font-variant:small-caps;
+    color:black;
+    font-size: smaller;
+
+}
+.prod>.image{
+    max-width: 90%;
+    height:150px;
+    margin-bottom:10px;
+  
+}
+    .prod > .price {
+        position: center ;
+        left: 5px;
+        bottom: 1px;
+        font-family: Candara;
+        font-size: 15px;
+        color: deeppink;
+    }
+.prod>.icons{
+    position:absolute;
+    right:3px;
+    bottom:3px;
+    width:20px;
+}
+.prod>.new-icon{
+    position:center;
+    top:1px;
+    left:1px;
+}
+h4 {
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    background-color: rgb(222, 240, 64);
+    width: 700px;
+    text-align: center;
+    margin-top: 5px;
+    font-size:larger;
+}
+h3 {
+    color:purple;
+   
+    margin-top: 470px;
+    font-size:25px;
+}
+.love {
+    width: 30%;
+float:right;
+}
+.pp1 {
+  
+    
+    margin-left: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+ .pp> .info{
+    float:right;
+}
+.love1{
+    
+    margin-left: 5px;
+}
+h5{
+    font-size: 25px;
+    color:brown;
+}
+strong{
+    color:purple;
+}
